@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Roboto;
+     src: url ("assets/fonts/Roboto.ttf");
+   }
+   body{
+    font-family:'Roboto' , sans-serif;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1440px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+   }
+   * {
+    box-sizing: border-box;
+  }
+  .header{
+    border: 1px solid rgb(63, 56, 56);
+    margin: 0px;
+    background-color: palegoldenrod;
+  }
+  .main{
+    border: 1px solid rgb(100, 117, 39);
+    margin-bottom: auto;
+    display: block;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background-color:whitesmoke;
+  }
+  .footer{
+    border: 1px solid rgb(100, 117, 39);
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: palegoldenrod;
+  }
+  footer {
+    display: block;
+}
+  .main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .header-container{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .footer-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    }
+  html {
+    scroll-behavior: smooth; 
+  }
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color:olive;
+  }
+  .nav-link {
+    transition: .3s;
+  }
+  .avatar{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    filter: grayscale(0.2) brightness(1.05);
+    transition: .3s;
+  }
+  .profile{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 15px solid #d7d1c9;
+  }
+  .profile-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+    }
+    
+    .rss{
+    width: 150px;
+}
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
